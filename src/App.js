@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+// importing Routes 
+import {Routes, Route} from 'react-router-dom';
+// importing my components or pages 
+import HomePage from './HomePage';
+import Aboutpage from './AboutPage';
+import MenuPage from './MenuPage';
+// end of my imported components 
 
 function App() {
   return (
@@ -7,7 +14,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi Teboo!
         </p>
         <a
           className="App-link"
