@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://www.acquia.com/sites/default/files/styles/case_study_stat_hero_desktop/public/media/image/2021-04/King%20Arthur%20Baking%20Company.webp?h=854a7be2&itok=jOQ_I1uO');
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 11rem;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 20rem;  
+}
+.bakery-slogan {
+    text-align: center;
+    margin-top: -9.5rem; 
+    font-weight: 600;
+    font-size: 2.3rem;
+}
