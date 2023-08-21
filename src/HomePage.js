@@ -1,5 +1,9 @@
 import React from 'react';
 import './HomePage.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 
 
 // functional component for Home Page
@@ -7,18 +11,21 @@ function Home() {
     return (
         <div>
             <nav className="navbar">
-                <a href="#" class="logo">Bread of Life Bakery</a>
+                <a href="#" className="logo">Bread of Life Bakery</a>
                     <ul class="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
+                        <li className='social-icon'><a href="#">Home</a></li>
+                        <li className='social-icon'><a href="#">About</a></li>
+                        <li className='social-icon'><a href="#">Menu</a></li>
                         
                     </ul>
-                        <div className="social-media-icons">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-tiktok"></i></a>
-                        </div>
-                        <div className="search-bar">
+                       
+                        <div className="search-bar social-media-icons">
+                            <div>
+                                <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
+                                <FontAwesomeIcon icon={faTiktok} className='social-icon'/>
+                                <FontAwesomeIcon icon={faTwitter} className='social-icon'/>
+                            </div>
+                            <FontAwesomeIcon icon={faSearch} className='social-icon'/>
                             <input type="text" placeholder="Search"/>
                             <button>Search</button>
                         </div>

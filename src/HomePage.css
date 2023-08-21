@@ -16,6 +16,7 @@ body {
     font-size: 24px;
     text-decoration: none;
     color: #333;
+    padding: 1rem;
 }
 
 .menu {
@@ -46,25 +47,31 @@ body {
 }
 
 .search-bar input {
-    padding: 5px;
+    padding: 2px;
     border: 1px solid #ccc;
+    border-radius: 1rem;
+    height: 2.7rem;
 }
 
 .search-bar button {
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+   
 }
 h1{
     font-family: 'Public Sans', sans-serif;
     font-size: 11rem;
     font-weight: 1000;
     text-align: center;
-    margin-top: 20rem;  
+    margin-top: 15rem;  
 }
 .bakery-slogan {
     text-align: center;
     margin-top: -9.5rem; 
     font-weight: 600;
     font-size: 2.3rem;
+}
+.social-icon {
+    padding: 1rem;
 }

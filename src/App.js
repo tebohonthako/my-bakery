@@ -1,17 +1,20 @@
 import './App.css';
-import {Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './HomePage';
-// import Aboutpage from './AboutPage';
 // import MenuPage from './MenuPage';
 
 
 function App() {
   return (
-    <div>
-      <Home/>
-      {/* <Aboutpage/>
-      <MenuPage/> */}
-    </div>
+    <Router>
+      <div>
+        <Home/>
+        <Routes>
+          {/* <Route exact path="/" element={<MenuPage />} />
+          <Route path="/recipe/:id" element={<Products />} /> */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
