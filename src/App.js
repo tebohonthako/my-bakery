@@ -4,18 +4,18 @@ import Home from './HomePage';
 // import MenuPage from './MenuPage';
 
 
-// function App() {
-//   return (
+function App() {
+   return (
     // <Router>
     //   <div>
-    //     <Home/>
+         <Home/>
     //     <Routes>
     //       {/* <Route exact path="/" element={<MenuPage />} />
     //       <Route path="/recipe/:id" element={<Products />} /> */}
     //     </Routes>
     //   </div>
     // </Router>
-  // );
-// }
+   );
+}
 
 export default App;
