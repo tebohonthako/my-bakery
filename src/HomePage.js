@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// import Menu from './MenuPage';
+
 
 
 // functional component for Home Page
@@ -14,8 +14,8 @@ function Home() {
             <nav className="navbar">
                 <a href="#" className="logo">Bread of Life Bakery</a>
                 <ul className="menu">
-                    <li className='social-icon'><a href="#"><Link to="/home">Home</Link></a></li>
-                    <li className='social-icon'><a href="#"><Link to="/about">About Us</Link></a></li>
+                    <li className='social-icon'><a href="#">Home</a></li>
+                    <li className='social-icon'><a href="#">About</a></li>
                     <li className='social-icon'><a href="#"><Link to="/menu">Menu</Link></a></li>
                 </ul>
 
@@ -32,7 +32,7 @@ function Home() {
             </nav>
             <div>
                 <h1>Bread.</h1>
-                <p className='bakery-slogan'>Welcome to the simple pleasures in life.</p>
+                <p className='bakery-slogan'>It's the simple pleasures in life</p>
             </div>
         </div>
     )

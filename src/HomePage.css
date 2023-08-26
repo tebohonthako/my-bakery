@@ -49,6 +49,7 @@ body {
 .search-bar input {
     padding: 2px;
     border: 1px solid #ccc;
+    border-radius: 1rem;
     height: 2.7rem;
 }
 
