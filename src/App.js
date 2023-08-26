@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './HomePage';
 import MenuPage from './MenuPage';
+import About from './AboutPage'
 
 function App() {
     return (
@@ -13,6 +14,8 @@ function App() {
                 
                 {/* Define routes using the Routes component */}
                 <Routes>
+                     <Route path="/" element={<Home />} />
+                     <Route path="/about" element={<About />} />
                     <Route path="/menu" element={<MenuPage />} />
                 </Routes>
             </div>

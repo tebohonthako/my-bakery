@@ -14,8 +14,8 @@ function Home() {
             <nav className="navbar">
                 <a href="#" className="logo">Bread of Life Bakery</a>
                 <ul className="menu">
-                    <li className='social-icon'><a href="#">Home</a></li>
-                    <li className='social-icon'><a href="#">About</a></li>
+                    <li className='social-icon'><a href="#"><Link to="/home">Home</Link></a></li>
+                    <li className='social-icon'><a href="#"><Link to="/about">About Us </Link></a></li>
                     <li className='social-icon'><a href="#"><Link to="/menu">Menu</Link></a></li>
                 </ul>
 
