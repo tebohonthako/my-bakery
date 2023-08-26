@@ -1,21 +1,23 @@
+import React from 'react';
 import './App.css';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './HomePage';
-// import MenuPage from './MenuPage';
-
+import MenuPage from './MenuPage';
 
 function App() {
-   return (
-    // <Router>
-    //   <div>
-         <Home/>
-    //     <Routes>
-    //       {/* <Route exact path="/" element={<MenuPage />} />
-    //       <Route path="/recipe/:id" element={<Products />} /> */}
-    //     </Routes>
-    //   </div>
-    // </Router>
-   );
+    return (
+        <Router>
+            <div>
+                {/* Include the Home component outside of the Routes */}
+                <Home />
+                
+                {/* Define routes using the Routes component */}
+                <Routes>
+                    <Route path="/menu" element={<MenuPage />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

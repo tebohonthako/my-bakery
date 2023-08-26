@@ -3,8 +3,8 @@ import './HomePage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// import Menu from './MenuPage';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 
 
 // functional component for Home Page
@@ -16,7 +16,7 @@ function Home() {
                 <ul className="menu">
                     <li className='social-icon'><a href="#">Home</a></li>
                     <li className='social-icon'><a href="#">About</a></li>
-                    <li className='social-icon'><a href="#">Menu</a></li>
+                    <li className='social-icon'><a href="#"><Link to="/menu">Menu</Link></a></li>
                 </ul>
 
                 <div className="search-bar social-media-icons">

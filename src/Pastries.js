@@ -2,39 +2,47 @@
     [
         {
           "id": 1,
-          "name": "Chocolate Croissant",
+          "name": "Uncle Waffles",
           "price": 2.99,
           "description": "A flaky croissant filled with rich chocolate, perfect for chocolate lovers.",
-          "image": "chocolate_croissant.jpg"
+          "image": "./images/waffles.jpg"
         },
         {
           "id": 2,
-          "name": "Blueberry Muffin",
-          "price": 1.99,
+          "name": "Burberry Flapjacks ",
+          "price": 6.99,
           "description": "Moist and delicious muffin packed with juicy blueberries.",
-          "image": "blueberry_muffin.jpg"
+          "image": "./images/flapjacks.jpg"
         },
         {
           "id": 3,
-          "name": "Strawberry Danish",
+          "name": "Croissant",
           "price": 3.49,
           "description": "Buttery pastry filled with sweet strawberries and drizzled with icing.",
-          "image": "strawberry_danish.jpg"
+          "image": "./images/crossaints-2.jpg"
         },
         {
           "id": 4,
-          "name": "Almond Croissant",
-          "price": 3.99,
+          "name": "Oreo cake",
+          "price": 10.99,
           "description": "Classic croissant filled with almond paste and topped with sliced almonds.",
-          "image": "almond_croissant.jpg"
+          "image": "./images/oreocake.jpg"
         },
         {
           "id": 5,
-          "name": "Raspberry Turnover",
+          "name": "Chocolate muffins",
           "price": 2.49,
           "description": "Flaky turnover with a tart raspberry filling, perfect for a quick snack.",
-          "image": "raspberry_turnover.jpg"
+          "image": "./images/choc-muffin.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Cinnamon rolls",
+          "price": 2.49,
+          "description": "Flaky turnover with a tart raspberry filling, perfect for a quick snack.",
+          "image": "./images/cinammonroll.jpg"
         }
+
       ]
       
 export default pastries;
