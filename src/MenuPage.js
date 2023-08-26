@@ -5,7 +5,6 @@ import './MenuPage.css'
 function Menu() {
     return(
         <div className="pastries-container">
-            <h2>M E N U </h2>
         {pastries.map(pastry => (
             <div key={pastry.id} className="pastry-item">
                 <img src={ process.env.PUBLIC_URL + pastry.image} alt={pastry.name} className="pastry-image" />

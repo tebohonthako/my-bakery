@@ -1,4 +1,27 @@
+
+
+/* MenuPage.css */
+
+.pastries-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+}
+
+.pastry-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
 .pastry-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
     width: 20rem;
     border-radius: 1rem;
 }
+
+/* Add any additional styling as needed */
