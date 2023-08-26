@@ -16,7 +16,7 @@
         },
         {
           "id": 3,
-          "name": "Croissant",
+          "name": "Krsipy Croissant",
           "price": 3.49,
           "description": "Buttery pastry filled with sweet strawberries and drizzled with icing.",
           "image": "./images/crossaints-2.jpg"

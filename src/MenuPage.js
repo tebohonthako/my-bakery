@@ -11,6 +11,7 @@ function Menu() {
                 <h2>{pastry.name}</h2>
                 <p className="pastry-price">${pastry.price.toFixed(2)}</p>
                 <p className="pastry-description">{pastry.description}</p>
+                <button className='add-to-cart'>Add To Cart</button>
             </div>
         ))}
     </div>
