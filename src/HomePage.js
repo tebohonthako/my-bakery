@@ -3,7 +3,7 @@ import './HomePage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,9 +14,9 @@ function Home() {
             <nav className="navbar">
                 <a href="#" className="logo">Bread of Life Bakery</a>
                 <ul className="menu">
-                    <li className='social-icon'><a href="#"><Link to="/home">Home</Link></a></li>
-                    <li className='social-icon'><a href="#"><Link to="/about">About Us </Link></a></li>
-                    <li className='social-icon'><a href="#"><Link to="/menu">Menu</Link></a></li>
+                    <li className='nav-menu'><a href="#"><Link to="/home">Home</Link></a></li>
+                    <li className='nav-menu'><a href="#"><Link to="/about">About Us </Link></a></li>
+                    <li className='nav-menu'><a href="#"><Link to="/menu">Menu</Link></a></li>
                 </ul>
 
                 <div className="search-bar social-media-icons">

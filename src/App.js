@@ -11,10 +11,8 @@ function App() {
             <div>
                 {/* Include the Home component outside of the Routes */}
                 <Home />
-                
                 {/* Define routes using the Routes component */}
                 <Routes>
-                     <Route path="/" element={<Home />} />
                      <Route path="/about" element={<About />} />
                     <Route path="/menu" element={<MenuPage />} />
                 </Routes>
